@@ -57,3 +57,21 @@ rm -rf .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Guia do Usuário (Para iniciantes)
+Se você não é desenvolvedor ou é iniciante, siga este passo a passo para rodar a aplicação em sua máquina:
+
+a. Ative o ambiente: No terminal, dentro da pasta onde o projeto foi clonado, digite source .venv/bin/activate (Mac/Linux) ou .venv\Scripts\activate (Windows).
+
+b. Inicie o servidor: Digite uvicorn main:app --reload.
+
+c. Acesse a Interface: Com o terminal aberto, abra o seu navegador e acesse: http://127.0.0.1:8000/docs. Você verá algo assim:
+
+<img width="626" height="586" alt="image" src="https://github.com/user-attachments/assets/a763a3e4-fa6d-4735-aaad-6ff55f8dd626" />
+
+
+
+Como usar/testar/brincar:
+- Escolha um dos métodos (ex: POST para criar tarefa).
+- Clique em "Try it out".
+- Preencha os dados e clique em "Execute".
