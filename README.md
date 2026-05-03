@@ -71,7 +71,17 @@ c. Acesse a Interface: Com o terminal aberto, abra o seu navegador e acesse: htt
 
 
 
+
 Como usar/testar/brincar:
-- Escolha um dos métodos (ex: POST para criar tarefa).
+
+- Escolha um dos métodos e edite a request (ex: POST para criar tarefa).
 - Clique em "Try it out".
 - Preencha os dados e clique em "Execute".
+
+Você deverá ver uma response tipo essa:
+
+  <img width="1093" height="526" alt="image" src="https://github.com/user-attachments/assets/e28f5eb8-ea5f-456a-a8e4-555343578550" />
+  </br>
+  <img width="1092" height="510" alt="image" src="https://github.com/user-attachments/assets/c53fb402-ea21-40b6-a52a-7a3efa40b749" />
+
+
