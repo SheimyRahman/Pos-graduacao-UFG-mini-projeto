@@ -45,10 +45,8 @@ Dado o código `main.py` assuma o papel de Engenheiro Especialista em QA e escre
 
 ----
 
-Troubleshooting: Erro de Instalação (macOS / Python 3.14+)
-Se você utiliza macOS e a instalação falhar no pacote pydantic-core (erro de compilação Rust/Maturin), isso ocorre porque o Python 3.14+ ainda é muito recente para alguns binários.
-
-Solução recomendada:
+Troubleshooting for macOS: Erro de Instalação (macOS / Python 3.14+)
+Se a instalação falhar no pacote pydantic-core (erro de compilação Rust/Maturin), devido ao Python 3.14+ ainda ser recente para alguns binários.
 
 Instale o Python 3.13: `brew install python@3.13`
 
